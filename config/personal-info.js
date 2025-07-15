@@ -19,80 +19,75 @@ const PERSONAL_INFO = {
   
   // About Section
   about: {
-    short: "I'm a passionate developer who loves turning ideas into reality through code.",
-    long: `I'm a full-stack developer with X years of experience in web development. 
-    I specialize in creating responsive, user-friendly applications using modern technologies. 
-    When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-    or sharing knowledge with the developer community.`
+   
+    long: `I am a motivated and detail-oriented 4th Year Information Technology student from Mapúa Malayan Colleges Laguna, seeking an entry-level opportunity where I can apply and grow my technical skills. With a strong foundation in network administration, cybersecurity awareness, cloud computing, and database management, I am eager to contribute to the evolving IT industry. I bring excellent communication skills, adaptability, time management, and a commitment to producing clear technical documentation—qualities that make me a reliable and resourceful team member in any tech-driven environment.
+
+`
   },
   
   // Skills
   skills: {
-    frontend: ["HTML5", "CSS3", "JavaScript", "React", "Vue.js", "TypeScript"],
-    backend: ["Node.js", "Python", "PHP", "Java", "C#"],
-    database: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
-    tools: ["Git", "Docker", "AWS", "Figma", "Adobe Creative Suite"],
-    languages: ["English", "Spanish", "French"]
+    frontend: ["HTML5", "CSS3", "Xamarin"],
+    backend: ["Python", "PHP", "C#", "ASP.NET"],
+    database: ["MySQL", "MariaDB", "PHPMyAdmin"],
+    tools: ["AWS", "Figma"],
+    languages: ["English", "Tagalog"]
   },
   
   // Experience
   experience: [
     {
-      title: "Senior Developer",
-      company: "Tech Company Inc.",
-      period: "2022 - Present",
-      description: "Led development of multiple web applications using React and Node.js. Managed a team of 5 developers and improved application performance by 40%."
+      title: "Web Developing",
+      company: "Information & Communications Technology Office - ICTO Biñan, Biñan City Hall",
+      period: "April - July 2025",
+      description: "The assigned task involved continuing the development of an unfinished website, focusing on completing its core features and enhancing overall functionality."
     },
     {
-      title: "Full Stack Developer",
-      company: "Startup XYZ",
-      period: "2020 - 2022",
-      description: "Built and maintained customer-facing applications. Implemented new features and optimized database queries."
-    },
-    {
-      title: "Junior Developer",
-      company: "Digital Agency",
-      period: "2018 - 2020",
-      description: "Developed responsive websites and e-commerce solutions. Collaborated with designers to implement pixel-perfect designs."
+      title: "Student Developer",
+      company: "Creotec Work Immersion Program",
+      period: "March - April 2021",
+      description: "Developed a basic mobile calculator application as part of a Senior High School Work Immersion Program focused on introducing mobile app development. Utilized MIT App Inventor to design, implement, and test core calculator functionalities while gaining foundational experience in visual programming and user interface design."
     }
   ],
   
   // Education
   education: [
     {
-      degree: "Bachelor of Computer Science",
-      school: "University Name",
-      period: "2014 - 2018",
-      description: "Graduated with honors. Specialized in software engineering and web development."
+      degree: "Bachelor of Information Technology",
+      school: "Mapua Malayan Colleges Laguna",
+      period: "2021 - present",
+    }
+    {
+      strand: "Humanities and Social Sciences",
+      school: "Far Eastern University - Alabang",
+      period: "2019 - 2021",
+    }
+    { 
+      school: "Sisters of Mary Immaculate School",
+      period: "Junior High | 2015 - 2019",
     }
   ],
   
   // Projects
   projects: [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: " San Cristobal Flood Management System (SCFMS)",
+      description: "A full-stack flood monitoring system with water level monitoring, map visualization, SOS alert functionality, and official update access on both web and mobile platforms.",
+      technologies: ["Flutter", "Lidar", "Google Cloud API", "Weather API", "Firebase"],
       image: "assets/images/project1.jpg",
-      liveUrl: "https://project1.com",
-      githubUrl: "https://github.com/yourusername/project1"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates and team features.",
-      technologies: ["Vue.js", "Firebase", "Vuex"],
-      image: "assets/images/project2.jpg",
-      liveUrl: "https://project2.com",
-      githubUrl: "https://github.com/yourusername/project2"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website built with modern web technologies.",
-      technologies: ["HTML5", "CSS3", "JavaScript"],
+      title: "Android Ticketing System",
+      description: "A mobile-only ticketing system for Android with features for ticket purchasing, refunds, and support for cash or card payments.",
+      technologies: ["Xamarin", "PHPMyAdmin", "XAMPP"],
       image: "assets/images/project3.jpg",
-      liveUrl: "https://project3.com",
-      githubUrl: "https://github.com/yourusername/project3"
     }
+    {
+      title: "MMCL Tickets",
+      description: "A web-based concert ticketing system developed in Visual Studio Community 2019 with features for purchasing and refunding tickets, merchandise options, and support for cash or card payments.",
+      technologies: ["ASP.NET", "MDB",  "Access", "C#", "HTML"],
+      image: "assets/images/project2.jpg",
+    },
   ],
   
   // Services
@@ -121,10 +116,10 @@ const PERSONAL_INFO = {
   
   // Contact Information
   contact: {
-    email: "your.email@example.com",
-    phone: "+1 (555) 123-4567",
-    address: "123 Main Street, City, Country",
-    availability: "Available for freelance work and full-time opportunities"
+    email: "chelseafranzine@gmail.com",
+    phone: "0920-416-6420",
+    address: "San Pedro Laguna, Philippines",
+    availability: "Available for full-time opportunities"
   },
   
   // Theme Colors (you can customize these)
