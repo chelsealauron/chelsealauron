@@ -3,7 +3,7 @@
 
 const PERSONAL_INFO = {
   // Basic Information
-  name: "Your Name",
+  name: "Chelsea",
   title: "Full Stack Developer",
   tagline: "Passionate about creating amazing digital experiences",
   email: "your.email@example.com",
