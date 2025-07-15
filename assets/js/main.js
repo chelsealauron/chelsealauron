@@ -145,28 +145,11 @@ function populateSocialLinks() {
     const socialPlatforms = [
         { key: 'linkedin', icon: 'fab fa-linkedin', label: 'LinkedIn' },
         { key: 'github', icon: 'fab fa-github', label: 'GitHub' },
-        { key: 'twitter', icon: 'fab fa-twitter', label: 'Twitter' },
-        { key: 'instagram', icon: 'fab fa-instagram', label: 'Instagram' },
-        { key: 'behance', icon: 'fab fa-behance', label: 'Behance' },
-        { key: 'dribbble', icon: 'fab fa-dribbble', label: 'Dribbble' }
+        { key: 'twitter', icon: 'fab fa-facebook', label: 'Facebook' },
     ];
     
-    socialPlatforms.forEach(platform => {
-        if (PERSONAL_INFO.social[platform.key]) {
-            // Main social links
-            const link = document.createElement('a');
-            link.href = PERSONAL_INFO.social[platform.key];
-            link.className = 'social-link';
-            link.setAttribute('target', '_blank');
-            link.setAttribute('rel', 'noopener');
-            link.setAttribute('aria-label', platform.label);
-            link.innerHTML = `<i class="${platform.icon}"></i>`;
-            socialLinks.appendChild(link);
-            
-            // Footer social links
-            const footerLink = link.cloneNode(true);
-            socialLinksFooter.appendChild(footerLink);
-        }
+   
+    
     });
 }
 
