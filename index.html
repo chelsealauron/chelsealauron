@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Your Name - Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing web development projects and skills">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top" id="nav-brand">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex align-items-center" id="page-top">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="fw-bold" id="hero-name">Your Name</h1>
+            <hr class="divider">
+            <p class="text-white-75 mb-5" id="hero-title">Full Stack Developer</p>
+            <p class="text-white-75 mb-5" id="hero-tagline">Passionate about creating amazing digital experiences</p>
+            <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+            <hr class="divider divider-light">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead" id="about-text">
+                        I'm a passionate developer who loves turning ideas into reality through code.
+                    </p>
+                    <p class="lead" id="about-long">
+                        I'm a full-stack developer with X years of experience in web development. 
+                        I specialize in creating responsive, user-friendly applications using modern technologies. 
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
+                        or sharing knowledge with the developer community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="page-section" id="experience">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experience</h2>
+            <hr class="divider">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="experience-timeline">
+                        <!-- Experience items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="page-section bg-light" id="projects">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+            <hr class="divider">
+            <div class="row justify-content-center" id="projects-grid">
+                <!-- Project cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="page-section" id="skills">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+            <hr class="divider">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <h4 class="text-center mb-3">Frontend</h4>
+                            <div class="skills-container" id="frontend-skills">
+                                <!-- Skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h4 class="text-center mb-3">Backend</h4>
+                            <div class="skills-container" id="backend-skills">
+                                <!-- Skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h4 class="text-center mb-3">Database</h4>
+                            <div class="skills-container" id="database-skills">
+                                <!-- Skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h4 class="text-center mb-3">Tools</h4>
+                            <div class="skills-container" id="tools-skills">
+                                <!-- Skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <hr class="divider">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-item text-center">
+                                <i class="fas fa-envelope fa-2x mb-3 text-primary"></i>
+                                <h5>Email</h5>
+                                <p id="contact-email">your.email@example.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-item text-center">
+                                <i class="fas fa-phone fa-2x mb-3 text-primary"></i>
+                                <h5>Phone</h5>
+                                <p id="contact-phone">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-item text-center">
+                                <i class="fas fa-map-marker-alt fa-2x mb-3 text-primary"></i>
+                                <h5>Location</h5>
+                                <p id="contact-location">City, Country</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-item text-center">
+                                <i class="fas fa-clock fa-2x mb-3 text-primary"></i>
+                                <h5>Availability</h5>
+                                <p id="contact-availability">Available for opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <div class="text-center mt-4">
+                        <h5 class="mb-3">Follow Me</h5>
+                        <div class="social-links" id="social-links">
+                            <!-- Social links will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4" id="footer-name">Your Name</h4>
+                    <p class="lead mb-0" id="footer-tagline">
+                        Passionate about creating amazing digital experiences
+                    </p>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Quick Links</h4>
+                    <p class="lead mb-0">
+                        <a href="#about" class="text-decoration-none">About</a> |
+                        <a href="#projects" class="text-decoration-none">Projects</a> |
+                        <a href="#contact" class="text-decoration-none">Contact</a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Connect</h4>
+                    <div class="social-links-footer" id="social-links-footer">
+                        <!-- Social links will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright Section -->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; <span id="current-year">2024</span> <span id="copyright-name">Your Name</span>. All rights reserved.</small>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="config/personal-info.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
