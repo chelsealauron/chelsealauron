@@ -3,21 +3,18 @@
 
 const PERSONAL_INFO = {
   // Basic Information
-  name: "Chelsea",
-  title: "Full Stack Developer",
-  tagline: "Passionate about creating amazing digital experiences",
-  email: "your.email@example.com",
-  phone: "+1 (555) 123-4567",
-  location: "City, Country",
+  name: "Chelsea Franzine C. Lauron",
+  title: "Mobile & Web Developer",
+  tagline: "A Practical Showcase of IT Skills, Systems, and Projects",
+  email: "chelseafranzine@gmail.com",
+  phone: "0920-416-6420
+  location: "San Pedro Laguna, Philippines",
   
   // Social Media Links
   social: {
-    linkedin: "https://linkedin.com/in/yourprofile",
-    github: "https://github.com/yourusername",
-    twitter: "https://twitter.com/yourhandle",
-    instagram: "https://instagram.com/yourhandle",
-    behance: "https://behance.net/yourprofile",
-    dribbble: "https://dribbble.com/yourprofile"
+    linkedin: "linkedin.com/in/chelsea-lauron-2a5052327/",
+    github: "https://github.com/chelsealauron",
+    facebook: "https://www.facebook.com/chelsea.lauron/",  
   },
   
   // About Section
